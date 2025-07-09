@@ -2,6 +2,9 @@
 import streamlit as st
 from PIL import Image
 import os
+
+os.system("pip install plotly")
+
 import shutil
 import json
 from urllib.request import urlopen
