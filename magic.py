@@ -3,7 +3,9 @@ import streamlit as st
 from PIL import Image
 import os
 
-os.system("pip install plotly")
+import sys
+sys.path.append("/home/appuser/.local/lib/python3.13/site-packages")
+
 
 import shutil
 import json
